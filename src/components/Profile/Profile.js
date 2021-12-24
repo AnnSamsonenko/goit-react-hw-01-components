@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
 
-export const Profile = ({ username, tag, location, avatar, stats }) => {
+export const Profile = ({
+  user: { username, tag, location, avatar, stats },
+}) => {
   return (
     <div className="profile">
       <div className="description">
@@ -29,13 +31,15 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
 };
 
 Profile.propTypes = {
-  avatar: PropTypes.string.isRequired,
-  username: PropTypes.string.isRequired,
-  tag: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired,
-  stats: PropTypes.shape({
-    followers: PropTypes.number.isRequired,
-    views: PropTypes.number.isRequired,
-    likes: PropTypes.number.isRequired,
+  user: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    username: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    stats: PropTypes.shape({
+      followers: PropTypes.number.isRequired,
+      views: PropTypes.number.isRequired,
+      likes: PropTypes.number.isRequired,
+    }),
   }),
 };
