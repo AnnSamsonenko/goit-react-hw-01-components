@@ -3,6 +3,6 @@ import { centerBlock } from "helpers/mixins";
 
 export const Container = styled.div`
   ${centerBlock};
-  padding: 50px 10px 0 10px;
+  padding: 50px 10px;
   width: 1004px;
 `;
