@@ -6,6 +6,7 @@ export const theme = Object.freeze({
     greyOpacity: "rgba(47, 48, 58, 0.1)",
     green: "#4caf50",
     red: "#f44336",
+    tableHead: "#423a8a",
     primaryText: "#2b2b2b",
     secondaryText: "#757575",
     tableText: "#afb1b8",

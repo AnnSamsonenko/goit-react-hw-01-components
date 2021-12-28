@@ -61,6 +61,7 @@ export const Label = styled.span`
   color: ${(props) => props.theme.colors.grey};
   margin-bottom: ${(props) => props.theme.spacing(2)};
 `;
+
 export const Value = styled.span`
   ${font({ fs: 18, fw: 500, lh: 20 })};
   color: ${(props) => props.theme.colors.secondaryText};
