@@ -1,5 +1,11 @@
 import PropTypes from "prop-types";
-import { FriendItem, Offline, Online, Avatar, UserName } from "./FriendsStyled";
+import {
+  FriendItem,
+  Offline,
+  Online,
+  Avatar,
+  UserName,
+} from "../FriendsStyled";
 
 export const FriendListItem = ({ friends }) => {
   return friends.map((friend) => (

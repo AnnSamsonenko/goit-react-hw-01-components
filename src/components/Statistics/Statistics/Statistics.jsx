@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import { Items } from "./Items";
-import { Section, Card, Title, StatsList } from "./StatisticsStyled";
+import { Items } from "../Items/Items";
+import { Section, Card, Title, StatsList } from "../StatisticsStyled";
 
 export const Statistics = ({ title, stats }) => {
   return (

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { StatsItem, Label, Value } from "./StatisticsStyled";
+import { StatsItem, Label, Value } from "../StatisticsStyled";
 
 export const Items = ({ data }) => {
   return data.map((item) => (

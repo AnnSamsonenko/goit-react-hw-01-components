@@ -22,4 +22,9 @@ export const Table = styled.table`
   & tbody tr:nth-child(even) {
     background: ${(props) => props.theme.colors.greyBg};
   }
+
+  & thead th,
+  & tbody td {
+    width: calc(100% / 3);
+  }
 `;
